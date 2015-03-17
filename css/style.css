@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.wrap {
+	width: 1020px;
+	margin: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/* ========================= HEADER ====================== */
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 150px;
+	height: 100px;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+nav ul li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+nav ul li .login {
+	color: #FF0000;
+}
+
+/* ===================== DESTAQUE ======================= */
+#destaque {
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+	text-align: center;
+	background: url(../img/background.jpg) center no-repeat;
+}
+
+#destaque h1 {
+	color: #FFF;
+	font-size: 40px;
+}
+
+#destaque .bot {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background: #FFF;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#destaque .bot a {
+	font-size: 30px;
+	color: #000;
+	text-decoration: none;
+}
+
+/* ===================== PAINEL ======================= */
+#painel {
+	margin-top: 20px;
+}
+
+#painel tr th {
+	height: 80px;
+}
+
+#painel tr th a {
+	color: #000;
+	font-size: 22px;
+}
+
+#painel tr td {
+	border: solid 3px #000;
+}
+
+#painel tr td ul {
+	padding-left: 25px;
+}
+
+#painel tr td ol {
+	padding-left: 25px;
+}
+
+/* ===================== CONTAINER ======================= */
+.container {
+	width: 640px;
+	float: left;
+}
+
+.container article {
+	margin-top: 20px;
+}
+
+.container .avaliacao {
+	margin-top: 10px;
+}
+
+.container .avaliacao span {
+	margin-left: 20px;
+}
+
+aside {
+	width: 350px;
+	float: right;
+	padding-top: 50px;
+}
+
+aside ul li {
+	list-style: none;
+	height: 30px;
+}
+
+aside ul li a {
+	font-size: 19px;
+}
+
+/* ===================== FOOTER ======================= */
+footer {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
